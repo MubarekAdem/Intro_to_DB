@@ -1,4 +1,2 @@
-INSERT INTO customer (column1, column2, column3)
-VALUES
-    ('value1', 'value2', 'value3'),
-    ('value4', 'value5', 'value6');
+INSERT INTO customer (customer_id, customer_name, email, address)
+VALUES (1, 'John Doe', 'john@example.com', '123 Main St');
